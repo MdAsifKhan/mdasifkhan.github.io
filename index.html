@@ -50,13 +50,7 @@
           <a class="nav-link js-scroll-trigger" href="#about">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#education">Education</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#tutoring">Tutoring</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
+          <a class="nav-link js-scroll-trigger" href="#teaching">Teaching</a>
         </li>
         <li class="nav-item">
           <a class="nav-link js-scroll-trigger" href="#experience">Experience</a>
@@ -97,41 +91,44 @@
       </div>
     </section>
 
-     <hr class="m-0">
+    <hr class="m-0">
 
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="education">
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="teaching">
       <div class="w-100">
-        <h2 class="mb-5">Education</h2>
-
+        <h2 class="mb-5">Teaching</h2>
+        
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">University of Edinburgh</h3>
+            <div>Tutor and Marker for Probabilistic Modelling and Reasoning 19/20</div>            
+            <div>Marker for Machine Learning Practical 19/20, 20/21</div>
+            <div>Marker for Introductory Applied Machine Learning 19/20, 20/21</div>
+            <div>Marker for Data Mining and Exploration 20/21</div>
+          </div>
+        </div>
+        
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="resume-content">
             <h3 class="mb-0">University of Bonn</h3>
-            <div class="subheading mb-3">Master of Science</div>
-            <div>Computer Science</div>
-            <p>GPA: 1.1/1.0 (1:Best,5:Worst)</p>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">Oct 2017 - Sep 2019</span>
+            <div>Tutor and marker for Knowledge Graph Analysis, WS17/18, WS18/19</div>
+            <div>I also developed the programming and theoretical exercise for the course. Available on <a href="https://github.com/SmartDataAnalytics/Knowledge-Graph-Analysis-Programming-Exercises">github</a>.</div>
           </div>
         </div>
 
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="resume-content">
             <h3 class="mb-0">LNM Institute of Information Technology</h3>
-            <div class="subheading mb-3">Bachelor of Technology</div>
-            <div>Electronics and Communication</div>
-            <p>GPA: 8.94/10</p>
+            <div>Teaching assistant for C Programming Lab, Fall13</div>
+            <div >Teaching assistant for Digital Signal Processing Lab, Fall15</div>
           </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">Jul 2012 - May 2016</span>
-          </div>
+
         </div>
 
       </div>
     </section>
     
     <hr class="m-0">
-
+   
     <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="experience">
       <div class="w-100">
         <h2 class="mb-5">Experience</h2>
@@ -216,52 +213,8 @@ model (GMM).<br>
     </section>
 
 
-
     <hr class="m-0">
 
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="tutoring">
-      <div class="w-100">
-        <h2 class="mb-5">Teaching</h2>
-        
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <h3 class="mb-0">University of Edinburgh</h3>
-            <div>Tutor and Marker for Probabilistic Modelling and Reasoning 19/20</div>            
-            <div>Marker for Machine Learning Practical 19/20, 20/21</div>
-            <div>Marker for Introductory Applied Machine Learning 19/20, 20/21</div>
-            <div>Marker for Data Mining and Exploration 20/21</div>
-          </div>
-        </div>
-        
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <h3 class="mb-0">University of Bonn</h3>
-            <div>Tutor and marker for Knowledge Graph Analysis, WS17/18, WS18/19</div>
-            <div>I also developed the programming and theoretical exercise for the course. Available on <a href="https://github.com/SmartDataAnalytics/Knowledge-Graph-Analysis-Programming-Exercises">github</a>.</div>
-          </div>
-        </div>
-
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <h3 class="mb-0">LNM Institute of Information Technology</h3>
-            <div>C Programming Lab, Fall13</div>
-            <div >Digital Signal Processing Lab, Fall15</div>
-          </div>
-
-        </div>
-
-      </div>
-    </section>
-
-    <hr class="m-0">
-
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="skills">
-      <div class="w-100">
-        <h2 class="mb-5">Skills</h2>
-        Python · Pytorch · Tensorflow · C · SQL · SPARQL· Sklearn · NNabla · MATLAB       
-    </section>
-
-    <hr class="m-0">
 
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="projects">
       <div class="w-100">
@@ -270,28 +223,26 @@ model (GMM).<br>
           <li>
             <i class="fa-li fa text-warning"></i>
             <a href="https://github.com/MdAsifKhan/RoboCup2019">Soccer ball localization</a></li>
-            In this work, we address the problem of soccer ball localization using deep convolutional neural networks (CNN). We first identify the problem of localization in an image and solve it using variants of fully convolutional networks (FCN) referred as SweatyNet. Later we extend it and use set of sequences of images to further improve the task of localization. We use temporal models for this purpose namely ConvLSTM and TCN on the top of SweatyNet. Instead of training from scratch, we take advantage of transfer learning and finetune SweatyNet. We evaluate all our experiments on the novel dataset of 4562 images created as a part of cudavision lab. Furthermore, we present empirical results to support the effectiveness of deep CNN for the soccer ball localization task and show improvement with transfer learning approaches when using temporal sequences of images.
-          <li>
+            This work addresses the soccer ball localisation problem using deep convolutional neural networks (CNN). We use fully convolutional networks (FCN) to predict the probability map of a ball's location from an image. Later, we extend it to the video data using temporal models, namely ConvLSTM and TCN, on top of the base FCN model. Instead of training from scratch, we take advantage of transfer learning and finetune FCN. We evaluate all our experiments on a novel dataset prepared as a part of this work. Furthermore, we present empirical results to support the effectiveness of using the ball's history in challenging scenarios.          <li>
             <br>
             <i class="fa-li fa text-warning"></i>
             <a href="https://github.com/MdAsifKhan/Game-AI">Game Artificial Intelligence</a></li>
-            In this work we identify three AI problems associated with game design: a) strategies for turn based games, b) game trees & path planning and c) behavior programming. We present our solution to the problems using various search and machine learning methods discussed in the lectures of Game AI at the University of Bonn. We present our solution with an enriched analysis of the computational challenges.
+           In this work, we address three AI problems associated with game design: a) strategies for turn-based games, we propose a probabilistic scheme based on the winning statistics of placing a move in a particular cell, b) game trees & path planning, we analyse the complexity of game trees in terms of branching factor, leaf nodes and non-terminal nodes. We show the computational cost of using minimax to find an optimal move in a high branching factor game like Connect4; we then look at an alternative version of minimax known as depth restricted search.  In path planning, we study the cost of uninformed and informed search methods on several 2D game maps. c) behaviour programming, we developed a fuzzy logic controller for the breakout. We further proposed an algorithm using self-organising maps and Bayesian imitation learning for predicting player trajectory in a Quake III game map.
           <li>
             <br>            
             <i class="fa-li fa text-warning"></i>
             <a href="https://github.com/MdAsifKhan/Commonsense-Knowledge-Base-Completion">Commonsense Knowledge Base Reasoning</a></li>
-            In this work we focus on commonsense reasoning. We do so by formulating a problem of knowledge base completion on ConceptNet. Such a formulation could help in increasing the coverage of knowledge in ConceptNet. Recently a lot of methods in knowledge base completion have been developed which can infer new facts based on existing knowledge. This work implements some such methods and extends them for commonsense knowledge base a.k.a ConceptNet. Doing so helps in learning common sense enriched word embeddings which can be used for different tasks like text classification, sentiment analysis, entity resolution, question answering etc. 
+           Common sense knowledge can improve the performance of several tasks like text classification, sentiment analysis, entity resolution, question answering etc. ConceptNet is a database representing the various form of commonsense knowledge as a multi-relational graph. In this work, we use a relational learning approach to predict the missing links in a database and thus increase the coverage of ConceptNet. We do so using tensor factorisation and neural networks methods (RESCAL, DistMult, ERMLP). We further combine the extended ConceptNet database with natural language sentences to learn common sense enriched word embeddings. 
           <li>
             <br>            
             <i class="fa-li fa text-warning"></i>
             <a href="https://github.com/MdAsifKhan/Multi-modal-Learning-for-Gene-Disease-Prioritization">Multi-Modal Learning for Disease-Gene Prioritization</a></li>
-            The identification of genes associated with diseases plays a vital role in improving medical care and in a better understanding of gene functions, interactions, and pathways. In this work, a new method is developed to jointly learn representations of disease and gene entities from text-mining and biological knowledge graphs. These representations are used to discover novel associations for the disease.
+            Identifying gene-disease associations plays a vital role in better understanding the gene functions, interactions, and pathways, thus critical for improving medical care. In this work, we develop a novel method for learning embeddings of disease and gene entities from text data and biological knowledge graphs. We further use the embeddings to discover novel gene-disease associations.
           <li>
             <br>
             <i class="fa-li fa text-warning"></i>
             <a href="https://mdasifkhan.github.io">Learning Representation of Biological Knowledge Graph</a></li>
-            The Semantic Web has been highly successful particularly in biology and biomedicine. The main success of the Semantic Web in the life sciences has been the development and use of ontologies. While the Semantic Web provides a useful way to represent and integrate biological data, networks, and background knowledge provided by ontologies, its use is often limited to retrieval and not to validate and infer new biological relations, or analyze a novel data set. There is also a certain lack of machine learning methods, particularly in biology, especially to use data together with ontologies. In this project we work on the development of an algorithm combining knowledge graphs, automated reasoning over ontologies, and feature learning with neural networks, to generate dense vector representations of biological entities. Through this method, biological data represented as knowledge graphs can be utilized for applications ranging from discovering molecular mechanisms underlying disease over drug repurposing to functional genomics. 
-          <li>
+          The main success of the Semantic Web in the life sciences is due to the development and use of ontologies. While the Semantic Web provides a useful way to represent and integrate biological data, networks, and background knowledge provided by ontologies, its use is often limited to retrieval and not validating and inferring new biological relations or analysing a novel data set. There is also a certain lack of machine learning methods, particularly in biology, especially to use data together with ontologies. In this project, we develop an algorithm combining knowledge graphs, automated reasoning over ontologies, and feature learning with neural networks, to generate vector representations of biological entities. Through this method, we can utilise the biological data represented as knowledge graphs for applications ranging from discovering molecular mechanisms of underlying disease over drug repurposing to functional genomics.           <li>
           <br>
             <i class="fa-li fa text-warning"></i>
             <a href="https://mdasifkhan.github.io">Predicting protein functions from sequence by a Neuro-Symbolic Deep Learning Model</a></li>
@@ -300,7 +251,7 @@ model (GMM).<br>
           <br>
             <i class="fa-li fa text-warning"></i>
             <a href="https://mdasifkhan.github.io">Machine Learning based Spectrum Prediction in Cognitive Radio Networks</a></li>
-            Cognitive radio offers the promise of intelligent radios that can learn and adapt to their environment. To date, most cognitive radio research has focused on policy-based radios that are hard-coded with a list of rules on how the radio should behave in certain scenarios. The focus of this work is to formalize application of machine learning algorithms for cognitive radio application and develop a framework within which they can be useful. The work addresses how generic cognitive engine can tackle problems such as dynamic spectrum access and spectrum prediction. Efficient spectrum sensing can be realized by predicting the future idle time of primary users activity in a cognitive radio network. In dynamic spectrum access, based on a reliable prediction scheme, a secondary user chooses a channel with the longest idle time for data transmission. The primary activity in most type of wireless networks governed by several well known network traffic models namely, Poisson, Interrupted Poisson (IP) and Self-similar (SS) traffic. For this work these traffic were simulated and were used in a sliding window methodology with Recurrent Neural Networks to predict future primary activity.             
+            Cognitive radio offers the promise of intelligent radios that can learn and adapt to their environment. To date, most cognitive radio research has focused on policy-based radios that are hard-coded with a list of rules on how the radio should behave in specific scenarios. This work aims to formalise the use of machine learning algorithms for cognitive radio application and develop a framework within which they can be useful. Specifically, our work addresses how a generic cognitive engine can tackle dynamic spectrum access and spectrum prediction problems. We develop a model for efficient spectrum sensing by predicting the future idle time of primary users activity. Based on a reliable prediction scheme in dynamic spectrum access, a secondary user chooses a channel with the longest idle time for data transmission. Several well-known network traffic models: Poisson, Interrupted Poisson (IP), and Self-similar (SS), govern the wireless networks' primary activity. Initially, we simulated these traffics and used Recurrent Neural Networks for predicting future primary activity. Later, we collected real traffic data and validated our approach on it.
         </ul>
       </div>
     </section>
