@@ -1,12 +1,23 @@
 ---
 layout: page
 permalink: /teaching/
-title: teaching
-description: Materials for courses you taught. Replace this text with your description.
+title: Academic Activities
+description: 
 nav: true
 nav_order: 4
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
+### Teaching
 
-Organize your courses by years, topics, or universities, however you like!
+###### University of Edinburgh, UK
+* Tutor and Marker for Probabilistic Modelling and Reasoning 19/20.
+* Marker for Machine Learning Practical 19/20, 20/21.
+* Marker for Introductory Applied Machine Learning 19/20, 20/21.
+* Marker for Data Mining and Exploration 20/21.
+
+###### University of Bonn, Germany
+* Teaching Assistant for Knowledge Graph Analysis, WS17/18, WS18/19. I was responsible for delivering tutorials and marking exams. I prepared programming and theoretical exercise for the course <a href="https://github.com/SmartDataAnalytics/Knowledge-Graph-Analysis-Programming-Exercises">KGA</a>.
+
+### Reviewer
+* NeurIPS 2022, ICLR 2022 (Highlighted Reviewer), AISTATS 2022 (Top Reviewer).
+* ML4PS Workshop NeurIPS 2021.
