@@ -19,5 +19,5 @@ nav_order: 4
 * Teaching Assistant for Knowledge Graph Analysis, WS17/18, WS18/19. I was responsible for delivering tutorials and marking exams. I prepared programming and theoretical exercise for the course <a href="https://github.com/SmartDataAnalytics/Knowledge-Graph-Analysis-Programming-Exercises">KGA</a>.
 
 ### Reviewer
-* NeurIPS 2022, ICLR 2022 (Highlighted Reviewer), AISTATS 2022 (Top Reviewer).
-* ML4PS Workshop NeurIPS 2021.
+* AISTATS 2023, NeurIPS 2022, ICLR 2022 (Highlighted Reviewer), AISTATS 2022 (Top Reviewer).
+* ML4PS Workshop NeurIPS 2021/2022.
