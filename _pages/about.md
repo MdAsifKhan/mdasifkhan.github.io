@@ -6,7 +6,7 @@ subtitle: Postdoctoral Fellow (Starting January 2024) <a href="https://hms.harva
 
 profile:
    align: right
-   image: 
+   image: prof_pic.jpg
    image_cicular: false # crops the image to make it circular
 #   address: >
 #     <p>5.19, Informatics Forum, University of Edinburgh</p>
