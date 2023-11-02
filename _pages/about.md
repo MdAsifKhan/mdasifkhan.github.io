@@ -2,15 +2,15 @@
 layout: about
 title: About
 permalink: /
-subtitle: Postdoctoral Fellow (Starting January 2024) <a href="https://hms.harvard.edu/"> Harvard Medical School. </a>
+# subtitle: Postdoctoral Fellow (Starting January 2024) <a href="https://hms.harvard.edu/"> Harvard Medical School. </a>
 
 profile:
    align: right
    image: prof_pic.jpg
    image_cicular: false # crops the image to make it circular
-#   address: >
-#     <p>5.19, Informatics Forum, University of Edinburgh</p>
-#     <p>10 Crichton Street</p>
+   address: >
+     <p>Postdoctoral Fellow (Starting January 2024)</p>
+     <p> <a href="https://hms.harvard.edu/"> Harvard Medical School. </a></p>
 #     <p>Edinburgh, EH8 9AB</p>
 news: false  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
