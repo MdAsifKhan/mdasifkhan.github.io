@@ -16,8 +16,8 @@ nav_order: 4
 * Marker for Data Mining and Exploration 20/21.
 
 ###### University of Bonn, Germany
-* Teaching Assistant for Knowledge Graph Analysis, WS17/18, WS18/19. I was responsible for delivering tutorials and marking exams. I prepared programming and theoretical exercise for the course <a href="https://github.com/SmartDataAnalytics/Knowledge-Graph-Analysis-Programming-Exercises">KGA</a>.
+* Teaching Assistant for Knowledge Graph Analysis, WS17/18, WS18/19. I was responsible for delivering tutorials and marking exams. Also, I prepared programming and theoretical exercises for the course <a href="https://github.com/SmartDataAnalytics/Knowledge-Graph-Analysis-Programming-Exercises">KGA</a>.
 
 ### Reviewer
 * NeurIPS 2023, ICML 2023, AISTATS 2023, NeurIPS 2022 (Top Reviewer), ICLR 2022 (Highlighted Reviewer), AISTATS 2022 (Top Reviewer).
-* SynS & ML Workshop ICML 2023, ML4PS Workshop NeurIPS 2021/2022.
+* SynS & ML Workshop ICML 2023, ML4PS Workshop NeurIPS 2021/2022/2023.
