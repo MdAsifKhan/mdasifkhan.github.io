@@ -28,4 +28,4 @@ I have a PhD from the University of Edinburgh, advised by <a href="https://homep
 * Equivariant neural networks.
 * Geometric and topological deep learning.
 
-# I completed my MSc. in Computer Science at the University of Bonn, where I worked on Machine Learning for Knowledge Graphs with <a href="https://www.ruhr-uni-bochum.de/ffm/Lehrstuehle/Machine_Learning/index.html.en">Prof. Asja Fischer</a> and <a href="http://jens-lehmann.org/">Prof. Jens Lehmann</a>. Please look at my publications for further insights into my work and research.
+ Please look at my publications for further insights into my work and research.
