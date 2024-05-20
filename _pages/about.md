@@ -17,9 +17,9 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am a postdoctoral fellow at Harvard Medical School in <a href="https://www.dfhcc.harvard.edu/insider/member-detail/member/chris-sander-phd/">Prof. Chris Sander's</a> Lab. My research focuses on developing machine learning and AI algorithms to advance cancer therapy. The emphasis of my work lies on interpretable approaches that can guide clinical decision-making. I am currently working on:
+I am a postdoctoral fellow at Harvard Medical School in <a href="https://www.sanderlab.org/#/people/chrissander">Prof. Chris Sander's</a> Lab. My research focuses on developing machine learning and AI algorithms to advance cancer therapy. The emphasis of my work lies on interpretable approaches that can guide clinical decision-making. I am currently working on:
 
-* Incorporating feature selection and uncertainty quantification techniques in deep sequential models to predict cancer risk with greater precision and reliability over time.
+* Feature selection and uncertainty quantification techniques in deep sequential models to predict cancer risk with greater precision and reliability over time.
 * Machine learning approaches to analyse spatial omics data of triple-negative breast cancer to predict the response of patients to chemotherapy.
 
 I have a PhD from the University of Edinburgh, advised by <a href="https://homepages.inf.ed.ac.uk/amos/">Prof. Amos Storkey</a> in the <a href="https://www.bayeswatch.com/"> Bayesian and Neural Systems </a> research group. My doctoral research was at the intersection of geometry and deep representation learning. The machine learning topics that are of particular interest to me:
