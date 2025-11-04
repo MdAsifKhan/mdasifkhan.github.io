@@ -3,5 +3,6 @@ _site/
 .sass-cache/
 .bundle/
 vendor/
+Gemfile.lock
 *.log
 .DS_Store
