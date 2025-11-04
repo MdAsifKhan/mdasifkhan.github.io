@@ -1,0 +1,115 @@
+title: "Asif Khan"
+email: "asif.khan@hms.harvard.edu"
+description: "Academic homepage of Asif Khan."
+baseurl: ""
+url: "https://mdasifkhan.github.io"
+permalink: pretty
+markdown: kramdown
+theme: null
+sass:
+  style: compressed
+plugins:
+  - jekyll-feed
+  - jekyll-scholar
+  - jekyll-sitemap
+
+navigation:
+  - label: Home
+    url: /
+  - label: Publications
+    url: /publications/
+  - label: Academic Activities
+    url: /activities/
+  - label: Contact
+    url: /contact/
+
+profile:
+  name: "Asif Khan"
+  tagline: "Postdoctoral Fellow, Harvard Medical School"
+  organization_url: "https://hms.harvard.edu/"
+  photo: "assets/img/prof_pic.jpg"
+  location: "Boston, MA"
+
+research_highlights:
+  - title: "Representation learning from large-scale real-world EHR data"
+    detail: "Transforming longitudinal patient trajectories into structured embeddings that capture the evolving health state of patients and support downstream clinical decision-making tasks."
+    image: "/assets/img/representation_learning.png"
+    image_alt: "Diagram showing patient trajectories, token embeddings, and downstream prediction."
+  - title: "Multi-cancer risk prediction"
+    detail: "Developing well-calibrated deep learning event models that predict cancer risk across horizons while quantifying uncertainty at the patient level."
+    image: "/assets/img/mcrp.png"
+    image_alt: "Transformer architecture for multi-cancer risk pooled trajectory modelling."
+  - title: "Machine learning models for combination therapy (Perturb • Measure • Model • Predict • Test)"
+    detail: "Modeling cellular dynamics with machine-learning driven differential equation models trained on drug and CRISPR perturbation data."
+    image: "/assets/img/pert_bio.png"
+    image_alt: "Illustration of cellular perturbations, modelling, and therapeutic design."
+
+social_links:
+  - label: GitHub
+    icon: github
+    url: "https://github.com/MdAsifKhan"
+  - label: LinkedIn
+    icon: linkedin
+    url: "https://www.linkedin.com/in/mak4086/"
+  - label: Twitter
+    icon: twitter
+    url: "https://twitter.com/KhanAsif__"
+  - label: Google Scholar
+    icon: scholar
+    url: "https://scholar.google.com/citations?user=Akp4gEwAAAAJ&hl=en"
+  - label: ORCID
+    icon: orcid
+    url: "https://orcid.org/0000-0003-3179-0140"
+
+contact:
+  office: "Armenise Building, 6th Floor"
+  address_lines:
+    - "210 Longwood Avenue"
+    - "Armenise Building, 6th Floor"
+    - "Boston, MA 02115"
+  phone: ""
+  form_action: "https://formsubmit.co/asif.khan@hms.harvard.edu"
+  form_subject: "New message from mdasifkhan.github.io"
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: default
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: default
+
+exclude:
+  - Gemfile.lock
+  - node_modules
+  - vendor
+
+scholar:
+  last_name: Khan
+  first_name: [Asif, Mohammad Asif, Mohammed Asif]
+  style: apa
+  locale: en
+  source: /_bibliography/
+  bibliography: papers.bib
+  bibliography_template: bib
+  query: "@*"
+  replace_strings: true
+  join_strings: true
+
+interests:
+  - Representation learning
+  - Geometry for deep learning
+  - Computational biology
+  - Cancer risk stratification
+
+education:
+  - degree: PhD in Machine Learning, University of Edinburgh
+    years: 2018--2023
+    detail: Bayesian and Neural Systems Group (Prof. Amos Storkey)
+  - degree: MSc in Computer Science, University of Bonn
+    years: 2016--2018
+    detail: Focus on machine learning and knowledge graphs

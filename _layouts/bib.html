@@ -1,0 +1,95 @@
+---
+---
+{% assign classes = 'publication' %}
+{% if entry.selected == true or entry.selected == 'true' %}
+  {% assign classes = classes | append: ' publication--selected' %}
+{% endif %}
+<article class="{{ classes }}">
+  <div>
+    <h2 class="publication__title">{{ entry.title | markdownify | strip_html }}</h2>
+    <p class="publication__authors">
+      {%- for author in entry.author_array -%}
+        {%- assign author_is_self = false -%}
+        {%- if author.last == site.scholar.last_name and site.scholar.first_name contains author.first -%}
+          {%- assign author_is_self = true -%}
+        {%- endif -%}
+        {%- capture author_name -%}{{ author.first | strip }} {{ author.last | strip }}{%- endcapture -%}
+        {%- capture author_markup -%}
+          {%- if author_is_self -%}
+            <em>{{ author_name }}</em>
+          {%- else -%}
+            {{ author_name }}
+          {%- endif -%}
+        {%- endcapture -%}
+        {%- if forloop.first -%}
+          {{ author_markup | strip }}
+        {%- elsif forloop.last -%}
+        {%- if forloop.length > 2 -%}
+            {{ ', and ' }}{{ author_markup | strip }}
+          {%- else -%}
+            {{ ' and ' }}{{ author_markup | strip }}
+          {%- endif -%}
+        {%- else -%}
+          , {{ author_markup | strip }}
+        {%- endif -%}
+      {%- endfor -%}
+    </p>
+    {% assign venue = entry.journal | default: entry.booktitle | default: entry.school | default: entry.publisher %}
+    {% assign year = entry.year %}
+    {% assign note = entry.note %}
+    {% assign meta_parts = '' | split: '' %}
+    {% if venue %}
+      {% assign meta_parts = meta_parts | push: venue %}
+    {% endif %}
+    {% if year %}
+      {% assign meta_parts = meta_parts | push: year %}
+    {% endif %}
+    {% if note %}
+      {% assign meta_parts = meta_parts | push: note %}
+    {% endif %}
+    {% if meta_parts.size > 0 %}
+      <p class="publication__meta">{{ meta_parts | join: ' · ' }}</p>
+    {% endif %}
+  </div>
+
+  <div class="publication__actions">
+    {% if entry.pdf %}
+      {% if entry.pdf contains '://' %}
+        <a class="chip" href="{{ entry.pdf }}" target="_blank" rel="noopener">PDF</a>
+      {% else %}
+        <a class="chip" href="{{ entry.pdf | prepend: '/assets/pdf/' | relative_url }}" target="_blank" rel="noopener">PDF</a>
+      {% endif %}
+    {% endif %}
+    {% if entry.arxiv %}
+      <a class="chip" href="https://arxiv.org/abs/{{ entry.arxiv }}" target="_blank" rel="noopener">arXiv</a>
+    {% endif %}
+    {% if entry.doi %}
+      <a class="chip" href="https://doi.org/{{ entry.doi }}" target="_blank" rel="noopener">DOI</a>
+    {% endif %}
+    {% if entry.code %}
+      <a class="chip" href="{{ entry.code }}" target="_blank" rel="noopener">Code</a>
+    {% endif %}
+    {% if entry.website %}
+      <a class="chip" href="{{ entry.website }}" target="_blank" rel="noopener">Project</a>
+    {% endif %}
+    {% if entry.url and entry.url contains 'openreview' %}
+      <a class="chip" href="{{ entry.url }}" target="_blank" rel="noopener">OpenReview</a>
+    {% elsif entry.url %}
+      <a class="chip" href="{{ entry.url }}" target="_blank" rel="noopener">Link</a>
+    {% endif %}
+  </div>
+
+  <details class="publication__details publication__details--bibtex">
+    <summary>BibTeX</summary>
+    <pre class="bibtex-block">{{ entry.bibtex | strip }}</pre>
+  </details>
+
+  <div class="publication__spacer" aria-hidden="true"></div>
+
+  {% if entry.abstract %}
+    <details class="publication__details">
+      <summary>Abstract</summary>
+      <p>{{ entry.abstract }}</p>
+    </details>
+  {% endif %}
+</article>
