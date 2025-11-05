@@ -49,7 +49,4 @@ description: "Get in touch with Asif Khan."
       <button type="submit" class="button">Send Message</button>
     </div>
   </form>
-  <p class="contact-card__hint">
-    Messages are delivered to <a href="mailto:{{ site.email }}">{{ site.email }}</a> via FormSubmit. The first submission will trigger a confirmation email from FormSubmit to enable the form.
-  </p>
 </div>
