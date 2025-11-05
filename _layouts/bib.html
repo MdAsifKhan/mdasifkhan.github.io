@@ -16,7 +16,7 @@
         {%- capture author_name -%}{{ author.first | strip }} {{ author.last | strip }}{%- endcapture -%}
         {%- capture author_markup -%}
           {%- if author_is_self -%}
-            <em>{{ author_name }}</em>
+            <strong>{{ author_name }}</strong>
           {%- else -%}
             {{ author_name }}
           {%- endif -%}
