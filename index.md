@@ -14,14 +14,14 @@ description: "Research homepage for Asif Khan, focusing on machine learning for 
       </div>
     </div>
     <p class="hero__lead">
-      I am a Postdoctoral Fellow at Harvard Medical School, working with <a href="https://www.sanderlab.org/#/people/chrissander" target="_blank" rel="noopener">Chris Sander</a>. Before HMS, I completed my PhD with <a href="https://homepages.inf.ed.ac.uk/amos/" target="_blank" rel="noopener">Amos Storkey</a> in the <a href="https://www.bayeswatch.com" target="_blank" rel="noopener">Bayesian and Neural Systems Group</a> at the University of Edinburgh. My doctoral thesis was on the geometry for deep representation learning.
+      I am a Postdoctoral Fellow at Harvard Medical School, working with <a href="https://www.sanderlab.org/#/people/chrissander" target="_blank" rel="noopener">Chris Sander</a>. Before Harvard, I completed my PhD with <a href="https://homepages.inf.ed.ac.uk/amos/" target="_blank" rel="noopener">Amos Storkey</a> in the <a href="https://www.bayeswatch.com" target="_blank" rel="noopener">Bayesian and Neural Systems Group</a> at the University of Edinburgh. My doctoral thesis was on the geometry for deep representation learning.
     </p>
     <p class="hero__lead hero__lead--secondary">
-    My research lies at the intersection of machine learning and biomedicine, addressing two critical challenges in cancer biology: early detection using longitudinal patient records and optimization of combination therapies through mechanistic models of drug response. Late-stage diagnosis remains the primary cause of cancer mortality, as many patients present when curative treatment is no longer possible. By training AI on large-scale clinical data, our work aims to identify high-risk individuals who can benefit from earlier intervention and effective treatment strategies.
+    My current research lies at the intersection of machine learning and biomedicine, addressing two critical challenges in cancer biology: early detection using longitudinal patient records and optimization of combination therapies through mechanistic models of drug response. Late-stage diagnosis remains the primary cause of cancer mortality, as many patients present when curative treatment is no longer possible. By training AI on large-scale clinical data, our work aims to identify high-risk individuals who can benefit from earlier intervention and effective treatment strategies. My work is centered around following topics:
     </p>
     <ul class="hero__summary-list">
       <li><strong>Representation learning from longitudinal EHRs</strong>: Developing foundation models that encode patient histories into continuous representation spaces of patient health states for downstream survival and risk assessments.</li>
-      <li><strong>Uncertainty-aware risk prediction</strong>: Building well-calibrated, robust, and generalizable models that capture distribution shifts across hospitals and populations.</li>
+      <li><strong>Uncertainty-aware cancer risk prediction</strong>: Building well-calibrated, robust, and generalizable models that capture distribution shifts across hospitals and populations.</li>
       <li><strong>AI-guided therapy design</strong>: Learning differential equation models that capture molecular dynamics under drug perturbations to inform combination therapies.</li>
     </ul>
     <div class="hero__details">
