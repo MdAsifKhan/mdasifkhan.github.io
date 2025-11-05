@@ -47,7 +47,6 @@ Sitemap: https://mdasifkhan.github.io/sitemap.xml
 
       <footer class="site-footer">
         <p>&copy; 2025 Asif Khan. Built with Jekyll.</p>
-        <p class="local-build">Run <code>bundle exec jekyll serve</code> to preview locally.</p>
       </footer>
     </div>
   </body>
