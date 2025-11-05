@@ -27,7 +27,7 @@ description: "Academic teaching, service, awards, and office information for Asi
     <h2>Funding and Fellowships</h2>
     <ul>
       <li><a href="https://www.the-ici-fund.org/recipients/details/multi-risk-cancer-prediction-using-deep-sequential-modeling-of-large-scale-longitudinal-ehrs" target="_blank" rel="noopener">Innovation in Cancer Informatics (2025-2027).</a></li>
-      <li><a href="https://www.daad.de/en/the-daad/postdocnet/fellows/fellows/#Khan-Asif" target="_blank" rel="noopener">AI for Science Fellow, DAAD Postdoc-NeT-AI program.</a></li>
+      <li><a href="https://www.daad.de/en/the-daad/postdocnet/fellows/fellows/#Khan-Asif" target="_blank" rel="noopener">AI for Science Fellow, DAAD Postdoc-NeT-AI program 2024.</a></li>
       <li>NeurIPS Scholar Award 2022.</li>
       <li>PhD Scholarship (2019-2023).</li>
     </ul>
