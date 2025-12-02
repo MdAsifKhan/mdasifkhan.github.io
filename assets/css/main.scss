@@ -239,9 +239,9 @@ img {
 }
 
 .hero__photo {
-  width: 150px;
-  height: 150px;
-  object-fit: cover;
+  width: 180px;
+  height: 180px;
+  object-fit: contain;
   border-radius: calc(var(--radius) - 8px);
   box-shadow: var(--shadow);
   position: relative;
