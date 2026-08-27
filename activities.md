@@ -1,8 +1,13 @@
 ---
-title: Academic Activities
+title: Activities
 permalink: /activities/
-description: "Academic teaching, service, awards, and office information for Asif Khan."
+description: "Teaching, academic service, funding, and mentoring by Asif Khan."
 ---
+
+<section class="page-intro">
+  <p class="eyebrow">Academic service</p>
+  <h1>Activities</h1>
+</section>
 
 <div class="activities-list">
   <article class="activities-card">
@@ -10,13 +15,14 @@ description: "Academic teaching, service, awards, and office information for Asi
     <ul>
       <li>Tutor &amp; marker for Probabilistic Modelling and Reasoning (2019–2020), University of Edinburgh.</li>
       <li>Marker for Machine Learning Practical (2019–2021), Introductory Applied Machine Learning (2019–2021), and Data Mining &amp; Exploration (2020–2021), University of Edinburgh.</li>
-      <li>Teaching assistant for Knowledge Graph Analysis (WS17/18, WS18/19), University of Bonn, delivering tutorial, course content preparation, exercise and exam assessment.</li>
+      <li>Teaching assistant for <a href="https://github.com/SmartDataAnalytics/Knowledge-Graph-Analysis-Programming-Exercises" target="_blank" rel="noopener">Knowledge Graph Analysis</a> (WS17/18, WS18/19), University of Bonn, delivering tutorial, course content preparation, exercise and exam assessment.</li>
     </ul>
   </article>
 
   <article class="activities-card">
     <h2>Reviewer &amp; Program Committees</h2>
     <ul>
+      <li>NeurIPS 2026; ICML 2026 (Technical Reviewer: Gold).</li>
       <li>NeurIPS 2025, ICML 2025 (Outstanding Reviewer), NeurIPS 2024 (Top Reviewer), ICML 2024 (Best Reviewer), NeurIPS 2023 (Top Reviewer), ICML 2023.</li>
       <li>AISTATS 2022–2023 (Top Reviewer), NeurIPS 2022 (Top Reviewer), ICLR 2022 (Highlighted Reviewer).</li>
       <li>Workshop program committees: TS4Health @ NeurIPS 2025, ML4LMS @ ICML 2024, SynS &amp; ML @ ICML 2023, ML4PS @ NeurIPS 2021/2022/2023.</li>
@@ -36,6 +42,7 @@ description: "Academic teaching, service, awards, and office information for Asi
   <article class="activities-card">
     <h2>Student Mentoring</h2>
     <ul>
+      <li>Sreevatsa Nukala, Masters, Harvard School of Public Health.</li>
       <li>Abdullah Kuzeiz, Harvard-MIT Health Science and Technology.</li>
       <li>Sophie Sharum, CS Undergraduate at Harvard.</li>
       <li>Nicole Xu, CS Undergraduate at MIT.</li>

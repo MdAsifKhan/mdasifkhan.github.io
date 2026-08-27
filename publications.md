@@ -5,12 +5,9 @@ description: "Peer-reviewed work and preprints by Asif Khan."
 ---
 
 <section class="page-intro">
+  <p class="eyebrow">Research output</p>
   <h1>Publications</h1>
-  <div class="button-row" style="margin-top: 12px;">
-    <a class="button button--ghost" href="https://scholar.google.com/citations?user=Akp4gEwAAAAJ&hl=en" target="_blank" rel="noopener">
-      View all papers on Google Scholar
-    </a>
-  </div>
+  <p>Peer-reviewed articles, conference papers, and preprints. A complete citation record is available on <a href="https://scholar.google.com/citations?user=Akp4gEwAAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a>.</p>
 </section>
 
 <div class="publication-list">

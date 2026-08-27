@@ -1,86 +1,84 @@
 ---
 title: Home
-description: "Research homepage for Asif Khan, focusing on machine learning for precision oncology."
+description: "Research homepage for Asif Khan, focusing on machine learning and AI for medicine."
 ---
 
 <section class="hero">
-  <div class="hero__intro">
-    <div class="hero__header">
-      <img class="hero__photo" src="{{ site.profile.photo | relative_url }}" alt="Portrait of Asif Khan">
-      <div class="hero__heading">
-        <h1 class="hero__title">Asif Khan</h1>
-        <span class="hero__eyebrow">Machine Learning &amp; AI for Medicine</span>
-        <span class="hero__role">Postdoctoral Fellow · Harvard Medical School</span>
-      </div>
-    </div>
+  <div class="hero__portrait">
+    <img class="hero__photo" src="{{ site.profile.photo | relative_url }}" alt="Portrait of {{ site.profile.name }}">
+  </div>
+  <div class="hero__content">
+    <p class="eyebrow">Machine Learning &amp; AI for Medicine</p>
+    <h1>{{ site.profile.name }}</h1>
+    <p class="hero__role">{{ site.profile.tagline }}</p>
     <p class="hero__lead">
-      I am a Postdoctoral Fellow at Harvard Medical School, working with <a href="https://www.sanderlab.org/#/people/chrissander" target="_blank" rel="noopener">Chris Sander</a>. Before Harvard, I completed my PhD with <a href="https://homepages.inf.ed.ac.uk/amos/" target="_blank" rel="noopener">Amos Storkey</a> in the <a href="https://www.bayeswatch.com" target="_blank" rel="noopener">Bayesian and Neural Systems Group</a> at the University of Edinburgh. My doctoral thesis was on the geometry for deep representation learning.
+      I am a Staff Scientist at Harvard Medical School, where I work with <a href="https://www.sanderlab.org/#/people/chrissander" target="_blank" rel="noopener">Chris Sander</a> and <a href="https://www.deboramarkslab.com/debora-marks" target="_blank" rel="noopener">Debbie Marks</a> on machine learning and AI methods for cancer research and clinical applications.
     </p>
-    <p class="hero__lead hero__lead--secondary">
-    My research lies at the intersection of machine learning and biomedicine, addressing two critical challenges in cancer biology: early detection using longitudinal patient records and optimization of combination therapies through mechanistic models of drug response. Late-stage diagnosis remains the primary cause of cancer mortality, as many patients present when curative treatment is no longer possible. By training AI on large-scale clinical data, our work aims to identify high-risk individuals who can benefit from earlier intervention and effective treatment strategies. My current work is centered around following topics:
+    <p>
+      My research interests include representation learning and generative models for large-scale data. My current work develops scalable models for longitudinal electronic health records that are robust and well-calibrated for pan-cancer risk stratification. I also work with drug and CRISPR perturbation data to model cellular responses and guide the design of combination therapies.
     </p>
-    <ul class="hero__summary-list">
-      <li><strong>Representation learning from longitudinal EHRs</strong>: Developing foundation models that encode patient histories into continuous representation spaces of patient health states for downstream survival and risk assessments.</li>
-      <li><strong>Uncertainty-aware cancer risk prediction</strong>: Building well-calibrated, robust, and generalizable models that capture distribution shifts across hospitals and populations.</li>
-      <li><strong>AI-guided therapy design</strong>: Learning differential equation models that capture molecular dynamics under drug perturbations to inform combination therapies.</li>
-    </ul>
-    <div class="hero__details">
-      <div class="hero__block">
-        <h2 class="hero__block-title">Interests</h2>
-        <ul class="hero__highlights">
-          {% for item in site.interests %}
-            <li>{{ item }}</li>
-          {% endfor %}
-        </ul>
-      </div>
-      <div class="hero__block">
-        <h2 class="hero__block-title">Education</h2>
-        <ul class="hero__timeline">
-          <li>
-            <strong>PhD in Machine Learning, University of Edinburgh</strong><span>2018–2023</span>
-            <div class="hero__timeline-detail">Bayesian and Neural Systems Group (Prof. Amos Storkey)</div>
-          </li>
-          <li>
-            <strong>MSc in Computer Science, University of Bonn</strong><span>2016–2018</span>
-            <div class="hero__timeline-detail">Focus on machine learning and knowledge graphs</div>
-          </li>
-        </ul>
-      </div>
-    </div>
-    <div class="button-row">
-      <a class="button" href="{{ '/publications/' | relative_url }}">View Publications</a>
-      <a class="button button--ghost" href="mailto:{{ site.email }}">Email Me</a>
-    </div>
-    <div class="hero__social">
-      <span class="hero__social-label">Connect</span>
-      <div class="social-links">
-        {% for link in site.social_links %}
-          <a href="{{ link.url }}" aria-label="{{ link.label }}" target="_blank" rel="noopener">
-            {% include social-icon.html icon=link.icon label=link.label %}
-          </a>
-        {% endfor %}
-      </div>
+    <p>
+      Before joining Harvard, I completed my PhD in Machine Learning at the University of Edinburgh under the supervision of <a href="https://homepages.inf.ed.ac.uk/amos/" target="_blank" rel="noopener">Amos Storkey</a>. My doctoral research focused on geometry for deep representation learning. I continue to develop geometric methods for understanding representation learning and interpreting large language models.
+    </p>
+    <div class="hero__links" aria-label="Primary links">
+      <a href="{{ '/publications/' | relative_url }}">Publications</a>
+      <a href="{{ '/assets/pdf/AsifKhanCV.pdf' | relative_url }}" target="_blank" rel="noopener">CV</a>
+      <a href="mailto:{{ site.email }}">Email</a>
+      <a href="https://x.com/KhanAsif__" target="_blank" rel="noopener">X</a>
     </div>
   </div>
 </section>
 
-<section class="section research">
-  <h2 class="section__title">Research Overview</h2>
-  <div class="research__pillars">
-    <div class="focus-list">
-      {% for highlight in site.research_highlights %}
-        <article class="focus-card research-feature">
-          <h3>{{ highlight.title }}</h3>
-          <div class="research-feature__body">
-            {% if highlight.image %}
-              <div class="research-feature__media">
-                <img src="{{ highlight.image | relative_url }}" alt="{{ highlight.image_alt }}">
-              </div>
-            {% endif %}
-            <p class="research-feature__text">
-              {{ highlight.detail }}
-            </p>
-          </div>
-        </article>
-      {% endfor %}
-    </div>
+<section class="section selected-work">
+  <header class="section__header">
+    <p class="eyebrow">Selected work</p>
+    <h2>Recent publications</h2>
+  </header>
+  <div class="paper-list">
+    {% for paper in site.selected_work %}
+      <article class="paper-row">
+        <div class="paper-row__meta">{{ paper.venue }} <span>{{ paper.year }}</span></div>
+        <div class="paper-row__content">
+          <h3><a href="{{ paper.url }}" target="_blank" rel="noopener">{{ paper.title }}</a></h3>
+          <p>{{ paper.detail }}</p>
+        </div>
+        <a class="paper-row__arrow" href="{{ paper.url }}" target="_blank" rel="noopener" aria-label="Read {{ paper.title }}">↗</a>
+      </article>
+    {% endfor %}
+  </div>
+  <p class="section__more"><a href="{{ '/publications/' | relative_url }}">View all publications →</a></p>
+</section>
+
+<section class="section research-directions">
+  <header class="section__header">
+    <p class="eyebrow">Research</p>
+    <h2>Current directions</h2>
+  </header>
+  <div class="direction-list">
+    {% for direction in site.research_directions %}
+      <article class="direction">
+        <span class="direction__number">0{{ forloop.index }}</span>
+        <div>
+          <h3>{{ direction.title }}</h3>
+          <p>{{ direction.detail }}</p>
+        </div>
+      </article>
+    {% endfor %}
+  </div>
+</section>
+
+<section class="section background">
+  <header class="section__header">
+    <p class="eyebrow">Background</p>
+    <h2>Education</h2>
+  </header>
+  <div class="background__items">
+    {% for item in site.education %}
+      <div class="background__item">
+        <p><strong>{{ item.degree }}</strong></p>
+        <p>{{ item.years | replace: '--', '–' }}</p>
+        <p>{{ item.detail }}</p>
+      </div>
+    {% endfor %}
+  </div>
+</section>

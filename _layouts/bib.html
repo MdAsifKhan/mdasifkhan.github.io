@@ -10,15 +10,21 @@
     <p class="publication__authors">
       {%- for author in entry.author_array -%}
         {%- assign author_is_self = false -%}
-        {%- if author.last == site.scholar.last_name and site.scholar.first_name contains author.first -%}
+        {%- assign author_last = author.last | replace: '*', '' | strip -%}
+        {%- assign author_first = author.first | replace: '*', '' | strip -%}
+        {%- assign contribution_marker = '' -%}
+        {%- if author.last contains '*' or author.first contains '*' -%}
+          {%- assign contribution_marker = '*' -%}
+        {%- endif -%}
+        {%- if author_last == site.scholar.last_name and site.scholar.first_name contains author_first -%}
           {%- assign author_is_self = true -%}
         {%- endif -%}
-        {%- capture author_name -%}{{ author.first | strip }} {{ author.last | strip }}{%- endcapture -%}
+        {%- capture author_name -%}{{ author_first }} {{ author_last }}{%- endcapture -%}
         {%- capture author_markup -%}
           {%- if author_is_self -%}
-            <strong>{{ author_name }}</strong>
+            <strong>{{ author_name }}</strong>{{ contribution_marker }}
           {%- else -%}
-            {{ author_name }}
+            {{ author_name }}{{ contribution_marker }}
           {%- endif -%}
         {%- endcapture -%}
         {%- if forloop.first -%}
