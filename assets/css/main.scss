@@ -280,6 +280,10 @@ textarea {
   max-width: var(--measure);
 }
 
+.hero__content h1 {
+  font-size: clamp(36px, 5vw, 56px);
+}
+
 .hero__role {
   margin-bottom: 30px;
   color: var(--muted);

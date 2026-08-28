@@ -8,7 +8,6 @@ description: "Research homepage for Asif Khan, focusing on machine learning and 
     <img class="hero__photo" src="{{ site.profile.photo | relative_url }}" alt="Portrait of {{ site.profile.name }}">
   </div>
   <div class="hero__content">
-    <p class="eyebrow">Machine Learning &amp; AI for Medicine</p>
     <h1>{{ site.profile.name }}</h1>
     <p class="hero__role">{{ site.profile.tagline }}</p>
     <p class="hero__lead">
@@ -31,7 +30,6 @@ description: "Research homepage for Asif Khan, focusing on machine learning and 
 
 <section class="section selected-work">
   <header class="section__header">
-    <p class="eyebrow">Selected work</p>
     <h2>Recent publications</h2>
   </header>
   <div class="paper-list">
@@ -51,7 +49,6 @@ description: "Research homepage for Asif Khan, focusing on machine learning and 
 
 <section class="section research-directions">
   <header class="section__header">
-    <p class="eyebrow">Research</p>
     <h2>Current directions</h2>
   </header>
   <div class="direction-list">
@@ -69,7 +66,6 @@ description: "Research homepage for Asif Khan, focusing on machine learning and 
 
 <section class="section background">
   <header class="section__header">
-    <p class="eyebrow">Background</p>
     <h2>Education</h2>
   </header>
   <div class="background__items">

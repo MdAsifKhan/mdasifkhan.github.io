@@ -5,7 +5,6 @@ description: "Teaching, academic service, funding, and mentoring by Asif Khan."
 ---
 
 <section class="page-intro">
-  <p class="eyebrow">Academic service</p>
   <h1>Activities</h1>
 </section>
 
