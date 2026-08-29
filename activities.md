@@ -21,6 +21,7 @@ description: "Teaching, academic service, funding, and mentoring by Asif Khan."
   <article class="activities-card">
     <h2>Reviewer &amp; Program Committees</h2>
     <ul>
+      <li>Journal reviewer: Journal of Machine Learning Research (JMLR).</li>
       <li>NeurIPS 2026; ICML 2026 (Technical Reviewer: Gold).</li>
       <li>NeurIPS 2025, ICML 2025 (Outstanding Reviewer), NeurIPS 2024 (Top Reviewer), ICML 2024 (Best Reviewer), NeurIPS 2023 (Top Reviewer), ICML 2023.</li>
       <li>AISTATS 2022–2023 (Top Reviewer), NeurIPS 2022 (Top Reviewer), ICLR 2022 (Highlighted Reviewer).</li>
