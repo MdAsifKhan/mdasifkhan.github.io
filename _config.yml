@@ -21,6 +21,8 @@ navigation:
     url: /publications/
   - label: Activities
     url: /activities/
+  - label: Knowledge Graph
+    url: /clinicalKG/
   - label: Contact
     url: /contact/
 
