@@ -21,8 +21,6 @@ navigation:
     url: /publications/
   - label: Activities
     url: /activities/
-  - label: Knowledge Graph
-    url: /clinicalKG/
   - label: Contact
     url: /contact/
 
@@ -44,11 +42,11 @@ research_directions:
     detail: "Geometric methods for understanding learned representations and interpreting large language models."
 
 selected_work:
-  - title: "Pancreatic cancer risk prediction using deep sequential modeling of longitudinal diagnostic and medication records"
-    venue: "Cell Reports Medicine"
-    year: 2025
-    detail: "A transformer-based risk model trained on population-scale longitudinal electronic health records."
-    url: "https://doi.org/10.1016/j.xcrm.2025.102359"
+  - title: "Identifying cohorts at elevated risk of cancers using generative modeling of patient health states"
+    venue: "medRxiv"
+    year: 2026
+    detail: "A generative model of longitudinal patient health states for pan-cancer risk stratification."
+    url: "https://www.medrxiv.org/content/10.64898/2026.09.09.26362676v2"
   - title: "Capacity and Redundancy Trade-offs in Multi-Task Learning"
     venue: "UAI"
     year: 2026
