@@ -252,19 +252,7 @@ textarea {
   align-items: start;
 }
 
-.hero__portrait {
-  position: relative;
-}
-
-.hero__portrait::before {
-  content: "";
-  position: absolute;
-  inset: 14px -14px -14px 14px;
-  border: 1px solid rgba(116, 123, 98, 0.38);
-}
-
 .hero__photo {
-  position: relative;
   width: 100%;
   aspect-ratio: 4 / 5;
   object-fit: cover;
@@ -790,10 +778,6 @@ ol.bibliography > li:last-child .publication {
 
   .hero__portrait {
     width: 138px;
-  }
-
-  .hero__portrait::before {
-    inset: 9px -9px -9px 9px;
   }
 
   .hero__lead {
