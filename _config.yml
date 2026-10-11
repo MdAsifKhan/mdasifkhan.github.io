@@ -19,44 +19,90 @@ navigation:
     url: /
   - label: Publications
     url: /publications/
-  - label: Activities
+  - label: Academic Activities
     url: /activities/
-  - label: Contact
-    url: /contact/
 
 profile:
   name: "Asif Khan"
-  tagline: "Staff Scientist, Harvard Medical School"
+  tagline: "Machine Learning and AI for Medicine"
   organization_url: "https://hms.harvard.edu/"
   photo: "assets/img/prof_pic.jpeg"
   location: "Boston, MA"
 
-research_directions:
-  - title: "Longitudinal health representations"
-    detail: "Scalable representation and generative models that learn patient health states from large-scale longitudinal clinical data."
-  - title: "Pan-cancer risk stratification"
-    detail: "Robust and well-calibrated models that identify high-risk patients across cancers, populations, and clinical settings."
-  - title: "Perturbation models"
-    detail: "Models of cellular response learned from drug and CRISPR perturbation data to guide combination therapy design."
-  - title: "Geometry and interpretability"
-    detail: "Geometric methods for understanding learned representations and interpreting large language models."
+affiliations:
+  - role: "Staff Scientist"
+    institution: "Harvard Medical School"
+    url: "https://hms.harvard.edu/"
+  - role: "Visiting Postdoctoral Fellow"
+    institution: "Institute for Systems Biology · Hadlock Lab"
+    url: "https://hadlock.isbscience.org/people/"
+  - role: "Research Associate"
+    institution: "Massachusetts General Hospital · Cancer Early Detection and Diagnostics Clinic"
+    compact_institution: "MGH · Cancer Early Detection and Diagnostics Clinic"
+    url: "https://www.massgeneral.org/cancer-center/treatments-and-services/cancer-early-detection"
+  - role: "Research Affiliate"
+    institution: "Ludwig Center at Harvard · Broad Institute of MIT and Harvard"
+    compact_institution: "Ludwig Center at Harvard · Broad Institute"
+    url: "https://www.ludwigcancerresearch.org/location/harvard/"
+
+students:
+  - name: "Sreevatsa Nukala"
+    program: "Master's student, Harvard T.H. Chan School of Public Health"
+  - name: "Abdullah Kuzeiz"
+    program: "Master's student, Harvard-MIT Health Sciences and Technology"
+  - name: "Sophie Sharum"
+    program: "Undergraduate student, Harvard University"
+  - name: "Nicole Xu"
+    program: "Undergraduate student, MIT"
+  - name: "Michael D. Dennison"
+    program: "Undergraduate student, MIT"
 
 selected_work:
   - title: "Identifying cohorts at elevated risk of cancers using generative modeling of patient health states"
     venue: "medRxiv"
     year: 2026
-    detail: "A generative model of longitudinal patient health states for pan-cancer risk stratification."
+    tags: [GenerativeAI, PatientHealthData, PanCancerRisk]
+    figure:
+      path: "/assets/img/genehr-overview.svg"
+      alt: "GenEHR overview: patient histories, time-aware pre-training, and pan-cancer risk prediction."
+      width: 1076
+      height: 410
+    preview:
+      path: "/assets/img/genehr-paper-preview.png"
+      alt: "First page of the GenEHR paper."
+      width: 696
+      height: 900
     url: "https://www.medrxiv.org/content/10.64898/2026.09.09.26362676v2"
-  - title: "Capacity and Redundancy Trade-offs in Multi-Task Learning"
-    venue: "UAI"
-    year: 2026
-    detail: "An analysis of how shared representations balance capacity and redundancy across learning tasks."
-    url: "https://arxiv.org/abs/2607.16554"
-  - title: "The Geometrical and Topological Signature of Transformers"
-    venue: "ICLR Workshop GRaM"
-    year: 2026
-    detail: "A geometric and topological framework for studying how transformer representations evolve across layers."
-    url: "https://openreview.net/forum?id=2Rg0GZfWFo"
+  - title: "Pancreatic cancer risk prediction using deep sequential modeling of longitudinal diagnostic and medication records"
+    venue: "Cell Reports Medicine"
+    year: 2025
+    tags: [Transformers, PancreaticCancer, RiskPrediction]
+    figure:
+      path: "/assets/img/cancer-graphical-abstract.jpg"
+      alt: "Graphical abstract: diagnosis and medication histories support AI-driven risk stratification, early detection, and therapy or prevention."
+      width: 996
+      height: 996
+    preview:
+      path: "/assets/img/pancreatic-paper-preview.png"
+      alt: "Opening article page of the pancreatic cancer risk prediction paper."
+      width: 694
+      height: 900
+    url: "https://www.sciencedirect.com/science/article/pii/S266637912500432X"
+  - title: "Position: AI-driven risk stratification is essential for affordable early detection of cancer"
+    venue: "NeurIPS Workshop GenAI for Health"
+    year: 2025
+    tags: [RiskStratification, EarlyDetection, ClinicalDecisionSupport]
+    figure:
+      path: "/assets/img/genehr-clinical-framework.jpg"
+      alt: "GenEHR Figure 7: risk-stratified cancer care from patient histories to early detection, therapy, and preventive care."
+      width: 1280
+      height: 735
+    preview:
+      path: "/assets/img/position-paper-preview.png"
+      alt: "First page of the position paper on AI-driven cancer risk stratification."
+      width: 696
+      height: 900
+    url: "https://openreview.net/forum?id=7PJYSePp2L"
 
 social_links:
   - label: GitHub
@@ -74,15 +120,6 @@ social_links:
   - label: ORCID
     icon: orcid
     url: "https://orcid.org/0000-0003-3179-0140"
-
-contact:
-  office: "Armenise Building, 6th Floor"
-  address_lines:
-    - "210 Longwood Avenue"
-    - "Boston, MA 02115"
-  phone: ""
-  form_action: "https://formsubmit.co/asif.khan@hms.harvard.edu"
-  form_subject: "New message from mdasifkhan.github.io"
 
 defaults:
   - scope:

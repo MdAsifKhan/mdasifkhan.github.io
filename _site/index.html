@@ -14,6 +14,8 @@
     <meta property="og:description" content="Research homepage for Asif Khan, focusing on machine learning and AI for medicine.">
     <meta property="og:url" content="https://mdasifkhan.github.io/">
     <meta property="og:type" content="website">
+    <link rel="preload" href="/assets/fonts/source-sans-3-upright.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="/assets/fonts/source-serif-4-roman.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="stylesheet" href="/assets/css/main.css">
   </head>
   <body>
@@ -27,16 +29,13 @@
           
           
             
-            <a class="nav-link nav-link--active" href="/">Home</a>
+            <a class="nav-link nav-link--active" aria-current="page" href="/">Home</a>
           
             
             <a class="nav-link" href="/publications/">Publications</a>
           
             
-            <a class="nav-link" href="/activities/">Activities</a>
-          
-            
-            <a class="nav-link" href="/contact/">Contact</a>
+            <a class="nav-link" href="/activities/">Academic Activities</a>
           
         </nav>
       </header>
@@ -44,124 +43,128 @@
       <main id="content" class="site-content">
         <section class="hero">
   <div class="hero__portrait">
-    <img class="hero__photo" src="/assets/img/prof_pic.jpeg" alt="Portrait of Asif Khan" />
-  </div>
-  <div class="hero__content">
-    <h1>Asif Khan</h1>
-    <p class="hero__role">Staff Scientist, Harvard Medical School</p>
-    <p class="hero__lead">
-      I am a Staff Scientist at Harvard Medical School, where I work with <a href="https://www.sanderlab.org/#/people/chrissander" target="_blank" rel="noopener">Chris Sander</a> and <a href="https://www.deboramarkslab.com/debora-marks" target="_blank" rel="noopener">Debbie Marks</a> on machine learning and AI methods for cancer research and clinical applications.
-    </p>
-    <p>
-      My research interests include representation learning and generative models for large-scale data. My current work develops scalable models for longitudinal electronic health records that are robust and well-calibrated for pan-cancer risk stratification. I also work with drug and CRISPR perturbation data to model cellular responses and guide the design of combination therapies.
-    </p>
-    <p>
-      Before joining Harvard, I completed my PhD in Machine Learning at the University of Edinburgh under the supervision of <a href="https://homepages.inf.ed.ac.uk/amos/" target="_blank" rel="noopener">Amos Storkey</a>. My doctoral research focused on geometry for deep representation learning. I continue to develop geometric methods for understanding representation learning and interpreting large language models.
-    </p>
-    <div class="hero__links" aria-label="Primary links">
-      <a href="/publications/">Publications</a>
-      <a href="/assets/pdf/AsifKhanCV.pdf" target="_blank" rel="noopener">CV</a>
-      <a href="mailto:asif.khan@hms.harvard.edu">Email</a>
+    <img class="hero__photo" src="/assets/img/prof_pic.jpeg" alt="Portrait of Asif Khan" width="208" height="260" />
+    <div class="hero__links" aria-label="Profile links">
+      <a href="https://scholar.google.com/citations?user=Akp4gEwAAAAJ&amp;hl=en" target="_blank" rel="noopener">Google Scholar</a>
+      <a href="https://github.com/MdAsifKhan" target="_blank" rel="noopener">GitHub</a>
       <a href="https://x.com/KhanAsif__" target="_blank" rel="noopener">X</a>
     </div>
+    <div class="hero__links hero__links--contact" aria-label="CV and email">
+      <a href="/assets/pdf/AsifKhanCV.pdf" target="_blank" rel="noopener">CV</a>
+      <a href="mailto:asif.khan@hms.harvard.edu">Email</a>
+    </div>
+    <address class="hero__address">210 Longwood Avenue, Boston, MA 02115</address>
+  </div>
+  <div class="hero__content">
+    <div class="hero__heading">
+      <h1>Asif Khan</h1>
+      <p class="hero__tagline">Machine Learning and AI for Medicine</p>
+    </div>
+    <p class="hero__lead">
+      I am a Staff Scientist at <a href="https://hms.harvard.edu/" target="_blank" rel="noopener">Harvard Medical School</a>, working with <a href="https://www.sanderlab.org/#/people/chrissander" target="_blank" rel="noopener">Chris Sander</a> and <a href="https://www.deboramarkslab.com/debora-marks" target="_blank" rel="noopener">Debbie Marks</a>.
+    </p>
+    <p>
+      My research focuses on representation learning and generative models for large-scale patient health data and cancer biology. My goal is to develop AI methods that use such data for cancer early detection and prognosis, helping clinicians make informed decisions and improve care pathways.
+    </p>
+    <p>
+      I develop models that learn from longitudinal health records to track changes in patient health and estimate risk across cancer types. I focus on making these models scalable, robust, and well-calibrated across patient populations and clinical settings. I also use drug and CRISPR perturbation data to model cellular responses and guide combination therapy design.
+    </p>
+    <p class="hero__affiliations">
+      I’m also a visiting postdoc with <a href="https://isbscience.org/people/jennifer-hadlock-md/" target="_blank" rel="noopener">Jenn Hadlock</a> at <a href="https://hadlock.isbscience.org/people/" target="_blank" rel="noopener">ISB</a> and a research associate with <a href="https://researchers.mgh.harvard.edu/profile/14398376/Erica-Warner" target="_blank" rel="noopener">Erica Warner</a> at <a href="https://www.massgeneral.org/cancer-center/treatments-and-services/cancer-early-detection" target="_blank" rel="noopener">MGH’s early detection clinic</a>, with affiliations at the <a href="https://www.ludwigcancerresearch.org/location/harvard/" target="_blank" rel="noopener">Ludwig Center at Harvard</a> and <a href="https://www.broadinstitute.org/" target="_blank" rel="noopener">Broad Institute</a>.
+    </p>
+    <p>
+      I completed my PhD in Machine Learning at the University of Edinburgh with <a href="https://homepages.inf.ed.ac.uk/amos/" target="_blank" rel="noopener">Amos Storkey</a>, working on geometry for deep representation learning. I continue to study geometric methods for representation learning and interpreting large language models.
+    </p>
   </div>
 </section>
 
 <section class="section selected-work">
   <header class="section__header">
-    <h2>Recent publications</h2>
+    <h2>Selected Publications</h2>
+    <a class="section__more" href="/publications/">All publications ↗</a>
   </header>
   <div class="paper-list">
     
       <article class="paper-row">
-        <div class="paper-row__meta">medRxiv <span>2026</span></div>
         <div class="paper-row__content">
+          <div class="paper-row__meta">medRxiv <span>2026</span></div>
           <h3><a href="https://www.medrxiv.org/content/10.64898/2026.09.09.26362676v2" target="_blank" rel="noopener">Identifying cohorts at elevated risk of cancers using generative modeling of patient health states</a></h3>
-          <p>A generative model of longitudinal patient health states for pan-cancer risk stratification.</p>
+          <ul class="paper-row__tags" aria-label="Research topics">
+            
+              <li>#GenerativeAI</li>
+            
+              <li>#PatientHealthData</li>
+            
+              <li>#PanCancerRisk</li>
+            
+          </ul>
+          <div class="paper-row__visuals">
+            
+              <a class="paper-preview" href="https://www.medrxiv.org/content/10.64898/2026.09.09.26362676v2" target="_blank" rel="noopener" aria-label="Read Identifying cohorts at elevated risk of cancers using generative modeling of patient health states">
+                <img src="/assets/img/genehr-paper-preview.png" alt="First page of the GenEHR paper." width="696" height="900" loading="lazy" decoding="async" />
+              </a>
+            
+            <div class="paper-row__figure">
+              <img src="/assets/img/genehr-overview.svg" alt="GenEHR overview: patient histories, time-aware pre-training, and pan-cancer risk prediction." width="1076" height="410" loading="lazy" decoding="async" />
+            </div>
+          </div>
         </div>
         <a class="paper-row__arrow" href="https://www.medrxiv.org/content/10.64898/2026.09.09.26362676v2" target="_blank" rel="noopener" aria-label="Read Identifying cohorts at elevated risk of cancers using generative modeling of patient health states">↗</a>
       </article>
     
       <article class="paper-row">
-        <div class="paper-row__meta">UAI <span>2026</span></div>
         <div class="paper-row__content">
-          <h3><a href="https://arxiv.org/abs/2607.16554" target="_blank" rel="noopener">Capacity and Redundancy Trade-offs in Multi-Task Learning</a></h3>
-          <p>An analysis of how shared representations balance capacity and redundancy across learning tasks.</p>
+          <div class="paper-row__meta">Cell Reports Medicine <span>2025</span></div>
+          <h3><a href="https://www.sciencedirect.com/science/article/pii/S266637912500432X" target="_blank" rel="noopener">Pancreatic cancer risk prediction using deep sequential modeling of longitudinal diagnostic and medication records</a></h3>
+          <ul class="paper-row__tags" aria-label="Research topics">
+            
+              <li>#Transformers</li>
+            
+              <li>#PancreaticCancer</li>
+            
+              <li>#RiskPrediction</li>
+            
+          </ul>
+          <div class="paper-row__visuals">
+            
+              <a class="paper-preview" href="https://www.sciencedirect.com/science/article/pii/S266637912500432X" target="_blank" rel="noopener" aria-label="Read Pancreatic cancer risk prediction using deep sequential modeling of longitudinal diagnostic and medication records">
+                <img src="/assets/img/pancreatic-paper-preview.png" alt="Opening article page of the pancreatic cancer risk prediction paper." width="694" height="900" loading="lazy" decoding="async" />
+              </a>
+            
+            <div class="paper-row__figure">
+              <img src="/assets/img/cancer-graphical-abstract.jpg" alt="Graphical abstract: diagnosis and medication histories support AI-driven risk stratification, early detection, and therapy or prevention." width="996" height="996" loading="lazy" decoding="async" />
+            </div>
+          </div>
         </div>
-        <a class="paper-row__arrow" href="https://arxiv.org/abs/2607.16554" target="_blank" rel="noopener" aria-label="Read Capacity and Redundancy Trade-offs in Multi-Task Learning">↗</a>
+        <a class="paper-row__arrow" href="https://www.sciencedirect.com/science/article/pii/S266637912500432X" target="_blank" rel="noopener" aria-label="Read Pancreatic cancer risk prediction using deep sequential modeling of longitudinal diagnostic and medication records">↗</a>
       </article>
     
       <article class="paper-row">
-        <div class="paper-row__meta">ICLR Workshop GRaM <span>2026</span></div>
         <div class="paper-row__content">
-          <h3><a href="https://openreview.net/forum?id=2Rg0GZfWFo" target="_blank" rel="noopener">The Geometrical and Topological Signature of Transformers</a></h3>
-          <p>A geometric and topological framework for studying how transformer representations evolve across layers.</p>
+          <div class="paper-row__meta">NeurIPS Workshop GenAI for Health <span>2025</span></div>
+          <h3><a href="https://openreview.net/forum?id=7PJYSePp2L" target="_blank" rel="noopener">Position: AI-driven risk stratification is essential for affordable early detection of cancer</a></h3>
+          <ul class="paper-row__tags" aria-label="Research topics">
+            
+              <li>#RiskStratification</li>
+            
+              <li>#EarlyDetection</li>
+            
+              <li>#ClinicalDecisionSupport</li>
+            
+          </ul>
+          <div class="paper-row__visuals">
+            
+              <a class="paper-preview" href="https://openreview.net/forum?id=7PJYSePp2L" target="_blank" rel="noopener" aria-label="Read Position: AI-driven risk stratification is essential for affordable early detection of cancer">
+                <img src="/assets/img/position-paper-preview.png" alt="First page of the position paper on AI-driven cancer risk stratification." width="696" height="900" loading="lazy" decoding="async" />
+              </a>
+            
+            <div class="paper-row__figure">
+              <img src="/assets/img/genehr-clinical-framework.jpg" alt="GenEHR Figure 7: risk-stratified cancer care from patient histories to early detection, therapy, and preventive care." width="1280" height="735" loading="lazy" decoding="async" />
+            </div>
+          </div>
         </div>
-        <a class="paper-row__arrow" href="https://openreview.net/forum?id=2Rg0GZfWFo" target="_blank" rel="noopener" aria-label="Read The Geometrical and Topological Signature of Transformers">↗</a>
+        <a class="paper-row__arrow" href="https://openreview.net/forum?id=7PJYSePp2L" target="_blank" rel="noopener" aria-label="Read Position: AI-driven risk stratification is essential for affordable early detection of cancer">↗</a>
       </article>
-    
-  </div>
-  <p class="section__more"><a href="/publications/">View all publications →</a></p>
-</section>
-
-<section class="section research-directions">
-  <header class="section__header">
-    <h2>Current directions</h2>
-  </header>
-  <div class="direction-list">
-    
-      <article class="direction">
-        <span class="direction__number">01</span>
-        <div>
-          <h3>Longitudinal health representations</h3>
-          <p>Scalable representation and generative models that learn patient health states from large-scale longitudinal clinical data.</p>
-        </div>
-      </article>
-    
-      <article class="direction">
-        <span class="direction__number">02</span>
-        <div>
-          <h3>Pan-cancer risk stratification</h3>
-          <p>Robust and well-calibrated models that identify high-risk patients across cancers, populations, and clinical settings.</p>
-        </div>
-      </article>
-    
-      <article class="direction">
-        <span class="direction__number">03</span>
-        <div>
-          <h3>Perturbation models</h3>
-          <p>Models of cellular response learned from drug and CRISPR perturbation data to guide combination therapy design.</p>
-        </div>
-      </article>
-    
-      <article class="direction">
-        <span class="direction__number">04</span>
-        <div>
-          <h3>Geometry and interpretability</h3>
-          <p>Geometric methods for understanding learned representations and interpreting large language models.</p>
-        </div>
-      </article>
-    
-  </div>
-</section>
-
-<section class="section background">
-  <header class="section__header">
-    <h2>Education</h2>
-  </header>
-  <div class="background__items">
-    
-      <div class="background__item">
-        <p><strong>PhD in Machine Learning, University of Edinburgh</strong></p>
-        <p>2018–2023</p>
-        <p>Bayesian and Neural Systems Group (Prof. Amos Storkey)</p>
-      </div>
-    
-      <div class="background__item">
-        <p><strong>MSc in Computer Science, University of Bonn</strong></p>
-        <p>2016–2018</p>
-        <p>Machine learning; Knowledge Graphs; Generative models for voice morphism</p>
-      </div>
     
   </div>
 </section>

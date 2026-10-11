@@ -14,6 +14,8 @@
     <meta property="og:description" content="Academic homepage of Asif Khan.">
     <meta property="og:url" content="https://mdasifkhan.github.io/robots.txt">
     <meta property="og:type" content="website">
+    <link rel="preload" href="/assets/fonts/source-sans-3-upright.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="/assets/fonts/source-serif-4-roman.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="stylesheet" href="/assets/css/main.css">
   </head>
   <body>
@@ -33,10 +35,7 @@
             <a class="nav-link" href="/publications/">Publications</a>
           
             
-            <a class="nav-link" href="/activities/">Activities</a>
-          
-            
-            <a class="nav-link" href="/contact/">Contact</a>
+            <a class="nav-link" href="/activities/">Academic Activities</a>
           
         </nav>
       </header>

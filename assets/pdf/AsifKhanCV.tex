@@ -1,0 +1,166 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[margin=0.68in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage{tabularx}
+\usepackage{titlesec}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage{microtype}
+
+\definecolor{ink}{HTML}{262824}
+\definecolor{muted}{HTML}{666A62}
+\definecolor{accent}{HTML}{687257}
+\definecolor{rule}{HTML}{D8D7D0}
+
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\fancyfoot[C]{\color{muted}\small Asif Khan \quad | \quad Curriculum Vitae \quad | \quad \thepage}
+
+\titleformat{\section}{\large\bfseries\color{ink}}{}{0pt}{}[\vspace{2pt}\color{rule}\titlerule]
+\titlespacing*{\section}{0pt}{12pt}{6pt}
+\setlist[itemize]{leftmargin=1.25em,itemsep=1.5pt,topsep=2pt,parsep=0pt}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{2pt}
+\color{ink}
+
+\newcommand{\entry}[4]{%
+  \par\noindent\begin{tabularx}{\textwidth}{@{}Xr@{}}
+    \textbf{#1} & \color{muted}#2 \\
+    \textit{#3} & \color{muted}#4
+  \end{tabularx}\par\vspace{3pt}
+}
+
+\newcommand{\pub}[1]{\item #1}
+\newcommand{\award}[2]{%
+  \par\noindent\begin{tabularx}{\textwidth}{@{}Xr@{}}
+    \textbf{#1} & \color{muted}#2
+  \end{tabularx}\par\vspace{3pt}
+}
+
+\begin{document}
+
+{\Huge\bfseries Asif Khan}\\[3pt]
+{\large\color{accent}Staff Scientist in AI for Medicine}\\[7pt]
+\begin{tabularx}{\textwidth}{@{}Xr@{}}
+Harvard Medical School, Boston, MA & \href{mailto:asif.khan@hms.harvard.edu}{asif.khan@hms.harvard.edu} \\
+\href{https://mdasifkhan.github.io/}{mdasifkhan.github.io} \quad
+\href{https://github.com/MdAsifKhan}{GitHub} & \href{tel:+16172017565}{+1 617 201 7565} \\
+&
+\href{https://scholar.google.com/citations?user=Akp4gEwAAAAJ}{Google Scholar} \quad
+\href{https://orcid.org/0000-0003-3179-0140}{ORCID}
+\end{tabularx}
+
+\section{Research Profile}
+Machine learning researcher developing representation learning, generative models, and foundation models for population-scale clinical data and cancer biology. My work spans longitudinal electronic health records, calibrated pan-cancer risk stratification, domain-adaptive pretraining across healthcare systems, drug and CRISPR perturbation modeling, and geometric approaches to representation learning and interpretability. I work across methodological, clinical, and translational collaborations to build models that are scalable, robust, and useful in practice.
+
+\section{Current Appointments and Affiliations}
+\entry{Staff Scientist}{Current}{Department of Systems Biology, Harvard Medical School}{Boston, MA}
+\entry{Visiting Postdoctoral Fellow}{Current}{Institute for Systems Biology, Hadlock Lab (Jennifer Hadlock)}{Seattle, WA}
+\entry{Research Associate}{Current}{Cancer Early Detection and Diagnostics Clinic, Massachusetts General Hospital}{Boston, MA}
+\entry{Research Affiliate}{Current}{Ludwig Center at Harvard; Broad Institute of MIT and Harvard}{Boston, MA}
+
+\section{Education}
+\entry{PhD in Machine Learning}{2019--2023}{University of Edinburgh; advisor: Amos Storkey}{Edinburgh, UK}
+Dissertation: \textit{Geometry for Deep Representation Learning}.
+\entry{MSc in Computer Science, grade 1.1 (excellent)}{2017--2019}{University of Bonn}{Bonn, Germany}
+Research in machine learning, knowledge graphs, and generative models for voice morphing.
+
+\section{Research Experience}
+\entry{Harvard Medical School}{2024--present}{Postdoctoral Fellow; Staff Scientist (Chris Sander and Debora Marks)}{Boston, MA}
+\begin{itemize}
+  \item Develop generative models of longitudinal patient health states for pan-cancer risk stratification using population-scale EHR data.
+  \item Build robust, calibrated clinical prediction systems across cancer types, institutions, and patient populations.
+  \item Model cellular responses to drug and CRISPR perturbations to support combination-therapy design.
+  \item Lead multidisciplinary collaborations spanning machine learning, clinical oncology, health data science, and cancer biology.
+\end{itemize}
+
+\entry{University of Edinburgh}{2019--2023}{PhD Researcher in Machine Learning (Amos Storkey)}{Edinburgh, UK}
+\begin{itemize}
+  \item Developed geometric and topological methods for understanding deep representation learning.
+  \item Designed Hamiltonian latent operators for content and motion disentanglement and methods for robust generative models.
+  \item Developed multi-resolution structural views for representation learning on non-local graphs.
+\end{itemize}
+
+\entry{Huawei Noah's Ark Lab}{2021}{Research Scientist Intern}{London, UK}
+\begin{itemize}
+  \item Developed combinatorial Bayesian optimization for automated antibody design with uncertainty quantification.
+\end{itemize}
+
+\entry{Sony Europe}{2019}{Research Intern}{Stuttgart, Germany}
+\begin{itemize}
+  \item Developed generative models for unsupervised cross-domain speech-to-speech conversion.
+\end{itemize}
+
+\entry{KAUST Bio-Ontology Research Group}{2016--2017}{Research Assistant}{Jeddah, Saudi Arabia}
+\begin{itemize}
+  \item Developed ontology-aware neural networks and neuro-symbolic methods for biological knowledge graphs.
+\end{itemize}
+
+\section{Selected Publications}
+\begin{enumerate}[leftmargin=1.55em,itemsep=3pt]
+\pub{\textbf{A. Khan}, D. T. Forster, M. Harsh, C. Zheng, E. T. Warner, D. Ritter, A. Chang, Q. Wei, T. K. Sorensen, D. S. Marks, L. V. Sequist, J. J. Hadlock, N. R. Fillmore, and C. Sander. Identifying cohorts at elevated risk of cancers using generative modeling of patient health states. \textit{medRxiv}, 2026.}
+\pub{\textbf{A. Khan}. Capacity and redundancy trade-offs in multi-task learning. \textit{Proceedings of the 42nd Conference on Uncertainty in Artificial Intelligence (UAI)}, 2026.}
+\pub{\textbf{A. Khan}. The geometrical and topological signature of transformers. \textit{ICLR Workshop on Geometry-grounded Representation Learning and Generative Modeling}, 2026.}
+\pub{Y. Sun et al., including \textbf{A. Khan}. AI proteomics: from protein identification to virtual cells. \textit{Nature Methods}, 2026.}
+\pub{L. M. Luque, \textbf{A. Khan}, G. Torrisi, T. D. Green, et al. Identifying tissue states by spatial protein patterns related to chemotherapy response in triple-negative breast cancer. \textit{eLife}, 2026.}
+\pub{\textbf{A. Khan}*, C. Zheng*, D. Ritter*, D. S. Marks, N. V. Do, N. R. Fillmore, and C. Sander. Pancreatic cancer risk prediction using deep sequential modeling of longitudinal diagnostic and medication records. \textit{Cell Reports Medicine}, 2025. (*Joint first authors)}
+\pub{\textbf{A. Khan}*, D. Ritter*, C. Zheng, D. T. Forster, et al. Multi-cancer risk prediction using transformers trained on large-scale longitudinal EHR data. \textit{NeurIPS Workshop on Learning from Time Series for Health}, 2025. (*Joint first authors)}
+\pub{\textbf{A. Khan}, D. T. Forster, M. Harsh, D. Ritter, et al. Position: AI-driven risk stratification is essential for affordable early detection of cancer. \textit{NeurIPS Workshop on GenAI for Health}, 2025.}
+\pub{\textbf{A. Khan}, G. Torrisi, L. M. Luque, et al. Batch-effect invariant graph neural networks for predicting chemotherapy response in triple-negative breast cancer patients. \textit{ICML Workshop on Machine Learning for Life and Material Sciences}, 2024.}
+\pub{\textbf{A. Khan} and A. Storkey. Adversarial robustness of VAEs through the lens of local geometry. \textit{AISTATS}, 2023.}
+\pub{\textbf{A. Khan}*, A. I. Cowen-Rivers*, A. Grosnit, et al. Toward real-world automated antibody design with combinatorial Bayesian optimization. \textit{Cell Reports Methods}, 2023. (*Joint first authors)}
+\pub{\textbf{A. Khan} and A. Storkey. HALO: Hamiltonian latent operators for content and motion disentanglement in image sequences. \textit{NeurIPS}, 2022.}
+\pub{M. A. Khan*, A. Kristiadi*, D. Lukovnikov, J. Lehmann, and A. Fischer. Incorporating literals into knowledge graph embeddings. \textit{ISWC}, 2019. (*Joint first authors)}
+\pub{M. Kulmanov, M. A. Khan, and R. Hoehndorf. DeepGO: Predicting protein functions from sequence and interactions using a deep ontology-aware classifier. \textit{Bioinformatics}, 2017.}
+\end{enumerate}
+\small Complete publication list: \href{https://mdasifkhan.github.io/publications/}{mdasifkhan.github.io/publications}
+
+\section{Invited and Selected Talks}
+\entry{New England Computational Biology Symposium (NECB)}{2026}{Selected talk: Pan-cancer risk assessment with an EHR foundation model that predicts what happens next and when}{Microsoft Research New England}
+\entry{The Cancer Prevention Research Conference}{2026}{Flash talk: Pan-cancer risk stratification via a foundation model of patient health histories}{Atlanta, GA}
+\entry{Cancer Early Detection and Diagnostics Clinic}{2026}{Pan-cancer risk assessment for early detection and prevention from real-world longitudinal clinical records}{Massachusetts General Hospital, Boston}
+\entry{AI in Cancer Research Symposium}{2026}{Invited tutorial: AI in Oncology}{Ludwig Center at Harvard}
+\entry{Hadlock Lab Seminar}{2025}{Cancer risk prediction from large-scale electronic health records}{Institute for Systems Biology}
+\entry{MIT-MGB AI Cures}{2025}{Representation learning on longitudinal health trajectories using LLMs for disease risk assessment}{Cambridge, MA}
+
+\section{Funding and Awards}
+\award{Best Poster Award, The Early Detection of Cancer Conference}{2026}
+\award{Best Poster Award, The Cancer Prevention Research Conference}{2026}
+\entry{Fund for Innovation in Cancer Informatics}{2025--2027}{Fellowship for multi-risk cancer prediction using longitudinal EHRs}{}
+\entry{DAAD Postdoc-NeT-AI}{2024}{AI for Science Fellow}{}
+\award{NeurIPS Scholar Award}{2022}
+\award{PhD Scholarship, University of Edinburgh}{2019--2023}
+
+\section{Academic Service}
+\textbf{Journal reviewer:} Journal of Machine Learning Research (JMLR).\\
+\textbf{Conference reviewer:} NeurIPS 2026; ICML 2026 (Technical Reviewer: Gold); NeurIPS 2025; ICML 2025 (Outstanding Reviewer); NeurIPS 2024 (Top Reviewer); ICML 2024 (Best Reviewer); NeurIPS 2023 (Top Reviewer); ICML 2023; AISTATS 2022--2023 (Top Reviewer); NeurIPS 2022 (Top Reviewer); ICLR 2022 (Highlighted Reviewer).\\
+\textbf{Workshop reviewing and program committees:} CAO and GRaM at ICLR 2026; TS4Health at NeurIPS 2025; ML4LMS at ICML 2024; SynS \& ML at ICML 2023; ML4PS at NeurIPS 2021--2023.
+
+\section{Teaching}
+\entry{University of Edinburgh}{2019--2023}{Tutor and marker}{Edinburgh, UK}
+Probabilistic Modelling and Reasoning; Machine Learning Practical; Introductory Applied Machine Learning; Data Mining and Exploration.
+\entry{University of Bonn}{2017--2019}{Teaching Assistant, Knowledge Graph Analysis}{Bonn, Germany}
+Delivered tutorials and prepared theoretical and programming exercises and assessments.
+
+\section{Student Mentoring}
+\begin{tabularx}{\textwidth}{@{}lXr@{}}
+\textbf{Sreevatsa Nukala} & Master's, Harvard T.H. Chan School of Public Health & 2025--2026 \\
+\textbf{Abdullah Kuzeiz} & Master's, Harvard-MIT Health Sciences and Technology & 2025 \\
+\textbf{Sophie Sharum} & Undergraduate, Harvard University & 2025 \\
+\textbf{Nicole Xu} & Undergraduate, MIT & 2024 \\
+\textbf{Michael D. Dennison} & Undergraduate, MIT & 2024
+\end{tabularx}
+
+\section{Research Collaborations}
+Chris Sander (Harvard Medical School / Ludwig / Broad); Debora Marks (Harvard Medical School); Jennifer Hadlock (Institute for Systems Biology); Lecia Sequist (Mass General Brigham Cancer Institute); Nathanael Fillmore (VA Boston / Harvard Medical School); Linus Schumacher (University of Edinburgh).
+
+\section{Technical Expertise}
+\textbf{Methods:} representation learning, generative models, self-supervised learning, geometric deep learning, uncertainty quantification, calibration, large language models.\\
+\textbf{Applications:} longitudinal EHR modeling, cancer risk stratification, spatial proteomics, drug and CRISPR perturbation modeling, computational drug discovery.\\
+\textbf{Tools:} Python, PyTorch, NumPy, scikit-learn, SQL, Bash, Git, Hugging Face, GCP.
+
+\end{document}
