@@ -48,14 +48,19 @@ affiliations:
 students:
   - name: "Sreevatsa Nukala"
     program: "Master's student, Harvard T.H. Chan School of Public Health"
+    years: "2025–2026"
   - name: "Abdullah Kuzeiz"
     program: "Master's student, Harvard-MIT Health Sciences and Technology"
+    years: "2025"
   - name: "Sophie Sharum"
     program: "Undergraduate student, Harvard University"
+    years: "2025"
   - name: "Nicole Xu"
     program: "Undergraduate student, MIT"
+    years: "2024"
   - name: "Michael D. Dennison"
     program: "Undergraduate student, MIT"
+    years: "2024"
 
 selected_work:
   - title: "Identifying cohorts at elevated risk of cancers using generative modeling of patient health states"

@@ -52,7 +52,7 @@ description: "Talks, teaching, academic service, funding, and mentoring by Asif 
     <h2>Student mentoring</h2>
     <ul>
       {% for student in site.students %}
-        <li><strong>{{ student.name }}</strong> — {{ student.program }}.</li>
+        <li><strong>{{ student.name }}</strong> ({{ student.years }}) — {{ student.program }}.</li>
       {% endfor %}
     </ul>
   </article>
