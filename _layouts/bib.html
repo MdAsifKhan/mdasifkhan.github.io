@@ -6,7 +6,7 @@
 {% endif %}
 <article class="{{ classes }}">
   <div>
-    <h2 class="publication__title">{{ entry.title | markdownify | strip_html }}</h2>
+    <h3 class="publication__title">{{ entry.title | markdownify | strip_html }}</h3>
     <p class="publication__authors">
       {%- for author in entry.author_array -%}
         {%- assign author_is_self = false -%}

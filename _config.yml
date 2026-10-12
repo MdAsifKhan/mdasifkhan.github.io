@@ -152,6 +152,9 @@ scholar:
   bibliography: papers.bib
   bibliography_template: bib
   query: "@*"
+  sort_by: year
+  order: descending
+  bibtex_skip_fields: [abstract, month_numeric, category]
   replace_strings: true
   join_strings: true
 
