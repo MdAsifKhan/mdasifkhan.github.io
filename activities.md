@@ -61,6 +61,7 @@ description: "Talks, teaching, academic service, funding, and mentoring by Asif 
     <h2>Reviewing</h2>
     <ul>
       <li>Journal reviewer: Journal of Machine Learning Research (JMLR).</li>
+      <li>AISTATS 2027.</li>
       <li>NeurIPS 2026 (Top Reviewer); ICML 2026 (Technical Reviewer: Gold).</li>
       <li>NeurIPS 2025, ICML 2025 (Outstanding Reviewer), NeurIPS 2024 (Top Reviewer), ICML 2024 (Best Reviewer), NeurIPS 2023 (Top Reviewer), ICML 2023.</li>
       <li>AISTATS 2022–2023 (Top Reviewer), NeurIPS 2022 (Top Reviewer), ICLR 2022 (Highlighted Reviewer).</li>
