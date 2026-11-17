@@ -46,9 +46,15 @@ affiliations:
     url: "https://www.ludwigcancerresearch.org/location/harvard/"
 
 students:
+  - name: "Matthew Ferguson"
+    program: "Master's student, Harvard University"
+    years: "2026–Current"
+  - name: "Nemeira Lal"
+    program: "Undergraduate thesis student, Harvard University"
+    years: "2026–Current"
   - name: "Sreevatsa Nukala"
     program: "Master's student, Harvard T.H. Chan School of Public Health"
-    years: "2025–2026"
+    years: "2025–Current"
   - name: "Abdullah Kuzeiz"
     program: "Master's student, Harvard-MIT Health Sciences and Technology"
     years: "2025"
